@@ -25,6 +25,18 @@ app:
       value: "-DenvironmentType=stage"
     - name: MY_ENV
       value: "1"
+    - name: tradeDbHost
+      value: "fbd88901-ebdb-4a4f-a32e-9822b9fb237b.c1ogj3sd0tgtu0lqde00.databases.appdomain.cloud"
+    - name: tradeDbName
+      value: BLUDB
+    - name: tradeDbPort
+      value: "32731"
+    - name: dbUser
+      value: kzp10112
+    - name: dbPass
+      value: "{aes}AAtmtH0UfkzFr03acPm20f+M1kDuhvzJW79UwMJsugGoW76kHr1MFE6hrYhQYJ0W6Q=="
+    - name: sslconn
+      value: "true"
   # List of variables that can be referenced in server.xml
   # Liberty encrypted values are supported
   variables:
