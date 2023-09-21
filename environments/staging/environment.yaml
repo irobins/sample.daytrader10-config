@@ -26,15 +26,15 @@ app:
     - name: MY_ENV
       value: "1"
     - name: tradeDbHost
-      value: "fbd88901-ebdb-4a4f-a32e-9822b9fb237b.c1ogj3sd0tgtu0lqde00.databases.appdomain.cloud"
+      value: "ec2-3-86-104-237.compute-1.amazonaws.com"
     - name: tradeDbName
-      value: BLUDB
+      value: TRADEDB
     - name: tradeDbPort
-      value: "32731"
+      value: "50000"
     - name: dbUser
-      value: kzp10112
+      value: db2inst1
     - name: dbPass
-      value: "{aes}AAtmtH0UfkzFr03acPm20f+M1kDuhvzJW79UwMJsugGoW76kHr1MFE6hrYhQYJ0W6Q=="
+      value: "{aes}AODi7cxlV9GPtNrP8LvYf92NjqP1JwVoDx/XuQE3VkaGaFIWAGugwRWLft+zZaD2VQ=="
     - name: sslconn
       value: "true"
   # List of variables that can be referenced in server.xml
