@@ -35,8 +35,6 @@ app:
       value: db2inst1
     - name: dbPass
       value: "{aes}AODi7cxlV9GPtNrP8LvYf92NjqP1JwVoDx/XuQE3VkaGaFIWAGugwRWLft+zZaD2VQ=="
-    - name: sslconn
-      value: "true"
   # List of variables that can be referenced in server.xml
   # Liberty encrypted values are supported
   variables:
