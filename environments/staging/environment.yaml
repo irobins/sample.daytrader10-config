@@ -35,8 +35,6 @@ app:
       value: db2inst1
     - name: dbPass
       value: "{aes}AODi7cxlV9GPtNrP8LvYf92NjqP1JwVoDx/XuQE3VkaGaFIWAGugwRWLft+zZaD2VQ=="
-    - name: sslconn
-      value: "true"
   # List of variables that can be referenced in server.xml
   # Liberty encrypted values are supported
   variables:
@@ -49,15 +47,15 @@ app:
     - name: clientSecret
       value: "{aes}AIUxkkmTE73hJrAj3oN5OMYQnC9j3NWNJNTXXAchJ97qyrr7MHYMmn1NEtxgHXFqmYp8VNEAYhB5hJS8voLsRYyfA/7GpDdznGs/DtYEqzlw"
   # cloudwatch for metrics
-  #metrics:
-  #  enabled: true
-  #  cloudwatch:
-  #    arn: arn:aws:logs:region:account-id:destination:destination_name
-  #    metrics:
-  #      - a
-  #      - b
-  #      - c
-  version: "f6444942-a430-4f9c-bdf3-84b63634634e"
+  metrics:
+    enabled: false
+    cloudwatch:
+      arn: arn:aws:logs:region:account-id:destination:destination_name
+      metrics:
+        - a
+        - b
+        - c
+  version: "3a362128-1e82-4764-94bb-2957c1da54ee"
 # probes
 # dynamic scaling
 # scaling to 0
