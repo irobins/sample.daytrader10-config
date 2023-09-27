@@ -55,7 +55,7 @@ app:
         - a
         - b
         - c
-  version: "f6444942-a430-4f9c-bdf3-84b63634634e"
+  version: "e117339d-4aef-434b-b2a3-2540532dadd8"
 # probes
 # dynamic scaling
 # scaling to 0
